@@ -9,11 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrdersPageComponent implements OnInit {
     //GV
-    cars: 'Car[]';
 
     constructor() {}
 
     ngOnInit(): void {
-        this.cars;
     }
 }
