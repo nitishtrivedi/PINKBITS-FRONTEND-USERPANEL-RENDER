@@ -13,9 +13,11 @@
         "heroku-postbuild-user": "nx build e-comm-app-user --prod --base-href /PinkBITS/",
         "heroku-postbuild-admin": "nx build e-com-app-admin --prod --base-href /PinkBITS-Admin/"
     },
+    "preserveSymlinks": true,
     "private": true,
     "dependencies": {
         "@angular/animations": "14.2.3",
+        "@angular/cdk": "^15.0.0",
         "@angular/cli": "~14.2.0",
         "@angular/common": "14.2.3",
         "@angular/compiler": "14.2.3",
